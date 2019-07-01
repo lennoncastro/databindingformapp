@@ -7,12 +7,10 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
 
-    //them receive the inputed infor
     private var _email: MutableLiveData<String> = MutableLiveData()
     private var _password: MutableLiveData<String> = MutableLiveData()
     private var _buttonEnable: MutableLiveData<Boolean> = MutableLiveData()
 
-    //them observer the inputed data and update the ui throught data binding
     var email: LiveData<String> = _email
         set(value) {
             field = value
@@ -46,11 +44,11 @@ class MainViewModel : ViewModel() {
     }
 
     private fun validateEmail(): Boolean {
-        return this.email.value?.isNotBlank() == true && this.email.value?.isEmailValid() == true
+        return email.value?.isNotBlank() == true && email.value?.isEmailValid() == true
     }
 
     private fun validatePassword(): Boolean {
-        return this.password.value?.length in 6..12
+        return password.value?.length in 6..12
     }
 }
 
