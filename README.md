@@ -11,3 +11,7 @@ Sample application that uses android data binding with MVVM architecture
   - [JUnit4](https://junit.org/junit4/)
   - [Mockito](https://site.mockito.org)
   - [Roboletric](http://robolectric.org)
+
+## Demo
+
+<iframe src="https://giphy.com/embed/kyKxReVPSSWfnnLfYB" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/kyKxReVPSSWfnnLfYB">via GIPHY</a></p>
