@@ -14,4 +14,4 @@ Sample application that uses android data binding with MVVM architecture
 
 ## Demo
 
-<iframe src="https://giphy.com/embed/kyKxReVPSSWfnnLfYB" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/kyKxReVPSSWfnnLfYB">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/kyKxReVPSSWfnnLfYB/source.gif" width="270" height="480" />
