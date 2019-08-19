@@ -1,6 +1,5 @@
 package com.example.databindingformapp
 
-import android.util.Patterns.EMAIL_ADDRESS
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -51,5 +50,3 @@ class MainViewModel : ViewModel() {
         return password.value?.length in 6..12
     }
 }
-
-internal fun String.isEmailValid(): Boolean = EMAIL_ADDRESS.matcher(this).matches()
