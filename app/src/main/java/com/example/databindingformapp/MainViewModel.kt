@@ -40,14 +40,14 @@ class MainViewModel : ViewModel() {
     }
 
     private fun validateUserInfo() {
-        _buttonEnable.value = validateEmail().and(validatePassword()) == true
+        _buttonEnable.value = isValidEmail().and(isValidPassword()) == true
     }
 
-    private fun validateEmail(): Boolean {
+    private fun isValidEmail(): Boolean {
         return email.value?.isNotBlank() == true && email.value?.isEmailValid() == true
     }
 
-    private fun validatePassword(): Boolean {
+    private fun isValidPassword(): Boolean {
         return password.value?.length in 6..12
     }
 }
